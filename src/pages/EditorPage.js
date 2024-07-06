@@ -10,6 +10,7 @@ import {
     Navigate,
     useParams,
 } from 'react-router-dom';
+import "../App.css"
 
 const EditorPage = () => {
     const socketRef = useRef(null);

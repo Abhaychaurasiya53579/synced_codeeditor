@@ -25,10 +25,19 @@
     margin-bottom: 20px;
     margin-top: 0;
 }
-
+.par_homepagelogo{
+    height: 10vh;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .homePageLogo {
-    height: 80px;
+    height: 100%;
+    width: 70%;
     margin-bottom: 30px;
+    /* margin-left: ; */
+    
 }
 
 .inputBox {
@@ -127,9 +136,45 @@
     width: 100%;
     margin-top: 20px;
 }
+.editorWrap{
+    border-left: 2px solid rgb(45, 44, 44);
+}
 .CodeMirror {
-    min-height: calc(100vh - 20px);
+    min-height: calc(75vh - 20px);
     font-size: 20px;
     line-height: 1.6;
-    padding-top: 20px;
+    padding-top: 10px;
 }
+
+.output_area{
+    min-height:20vh;
+    height: auto;
+    background-color: #2a2d33;
+    color: #eee;
+    font-size: large;
+}
+.parent_run_code_button{
+  display: flex; 
+   justify-content: center;
+  align-items: center;
+  height:5vh;
+  /* background-color: #081a76; */
+}
+.run_code_button {
+    height: 3vh;
+    background-color: #faf9fa; /* Solid background color */
+    color: rgb(6, 6, 247);
+    /* border: 2px solid rgb(89, 87, 87);  */
+    /* box-shadow: 0 0 0 1000px #fdfcfc inset;  */
+}
+
+.run_code_button:hover{
+    background-color: #f7f7fa;
+    color: rgb(64, 3, 248);
+}
+.out {
+    margin-top: 0px !important;
+    background-color: #155ce1;
+    margin-bottom: 100px;
+}
+

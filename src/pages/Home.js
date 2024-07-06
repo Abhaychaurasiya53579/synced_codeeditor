@@ -37,11 +37,13 @@ const Home = () => {
     return (
         <div className="homePageWrapper">
             <div className="formWrapper">
+            <div className='par_homepagelogo'>
                 <img
                     className="homePageLogo"
                     src="/download.png"
                     alt="code-sync-logo"
                 />
+                </div>
                 <h4 className="mainLabel">Enter Room Id and UserName</h4>
                 <div className="inputGroup">
                     <input
