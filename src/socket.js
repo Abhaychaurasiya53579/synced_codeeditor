@@ -7,6 +7,6 @@ export const initSocket = async () => {
       timeout: 1000000,
       transports: ['websocket'],
     };
-    return io("https://synced-codeeditor-89hm.vercel.app/", options);
+    return io("http://localhost:3000/", options);
     
   };
